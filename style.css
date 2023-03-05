@@ -70,3 +70,8 @@ body{
     backdrop-filter: blur(2px);
 }
 
+@media (max-width: 480px) {
+  .container #timerShow{
+    flex-direction:column;
+  }
+}
