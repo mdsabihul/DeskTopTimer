@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(#e5e5e5,#d1d1d1,#b2b2b2,#828282); */
+    background-image: url('4635768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-position: center; */
+}
+
+.container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#greetPng{
+    width: 35px;
+    vertical-align: middle;
+}
+
+
+.greeting{
+    /* color: #f5f6f7; */
+    font-size: 22px;
+    border: 0.2px solid #f3ecec;
+    box-shadow: 0px 0px 5px #000000;
+    padding: 8px 15px;
+    color: rgb(209, 216, 215);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.container #timerShow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quoteOftheDay{
+    background-color: #ECF2FF;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #ffff;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.timeDiv{
+    background-color:#1a191949;
+    min-width: 280px;
+    margin: 10px 5px;
+    padding: 10px;
+    font-size:9rem;
+    text-align: center;
+    border: 0.2px solid #f3ecec;
+    box-shadow: 0px 0px 5px #000000;
+    color: rgb(209, 216, 215);
+    border-radius: 50px;
+    backdrop-filter: blur(2px);
+}
+
