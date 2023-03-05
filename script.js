@@ -1,8 +1,8 @@
 
 
 let visitor_name=prompt("hello, Who is Here ?")
-document.getElementById('visitor_name').innerHTML=visitor_name;
-console.log(visitor_name+"gfdg");
+document.getElementById('visitor_name').innerHTML=", " + visitor_name;
+
 
 let quoteOftheDay=document.getElementById("quoteOftheDay");
 fetch("https://type.fit/api/quotes")
