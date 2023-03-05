@@ -12,7 +12,7 @@ fetch("https://type.fit/api/quotes")
   .then(function(data) {
     let lenghtOfArray=data.length;
     let randomText=Math.floor(Math.random()*100);
-    quoteOftheDay.innerHTML=data[randomText]['text']+' &nbsp;&nbsp;&nbsp;&nbsp;[Author - '+ data[randomText]['author']+']';
+    quoteOftheDay.innerHTML=data[randomText]['text']+' &nbsp;&nbsp;&nbsp;&nbsp;<br>[Author - '+ data[randomText]['author']+']';
   });
 
   let greetSpan=document.getElementById('greetSpan');
